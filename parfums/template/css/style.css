@@ -1,0 +1,1395 @@
+@charset "UTF-8" ;
+
+
+
+p{
+	color: #787878;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1200px;
+}
+}
+
+a {
+	color: #f48b8b;
+	text-decoration: none;
+	transition: all.3s ease;
+    -moz-transition:all.3s ease;
+    -webkit-transition: all.3s ease;
+    -ms-transition:all.3s ease;
+}
+
+.wrapper {
+	background-color: #F6F5F4;
+}
+
+.wrapper-content {
+	background-color: #FFFFFF;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: auto;
+}
+
+
+.top-wrapper {
+	background-color: #FE7992;
+	height:28px;
+}
+
+.open a:hover{
+	color: black!important;
+}
+
+.registration{
+	color: white;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+.info h4 {
+	color: #949494;
+}
+
+
+.basket {
+	margin-top: 40px;
+	justify-content: flex-end;
+}
+
+.basket a,.info a,.block_menu li a{
+	color: black;
+}
+
+.basket p{
+	color: black;
+}
+.sum {
+	display: block;
+	margin-top:10px;
+}
+
+.logo{
+		margin-top:10px;
+	text-align:center;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+.count1{
+	position: absolute;
+	right: 0;
+	top:-10px;
+	font-size: 0.7em;
+	border:1px solid black;
+	border-radius:50%;
+	width: 20px; 
+	height: 20px;
+	text-align: center;
+}
+
+.graphic{
+
+	position: relative;
+}
+
+.graphic:hover{
+	color: #FE7992!important;
+}
+
+.count1_fonts:hover .count1{
+	border-color: #FE7992!important;
+}
+
+.fonts{
+	font-size: 1.8em;
+	margin-right: 10px;
+}
+
+.navbar-small .basket {
+	margin-top: 15px;
+}
+
+@media(min-width:768px) and (max-width:992px){
+	.logo-header{
+		border-bottom: 1px solid #FE7992;
+		border-top: 1px solid #FE7992;
+	}
+	}
+	
+
+
+
+	.carousel-mobile{
+		display: none;
+	}
+	
+	.navbar-small{
+		display: none;
+	}
+
+@media(max-width:768px){
+	.carousel-mobile{
+		display: block;
+	}
+	.carousel-pc{
+		display: none;
+	}
+}
+
+
+@media(max-width:991px){
+	.nav-lg{
+		display: none;
+	}
+	.basket-wrapper, .logo-header .info{
+		display: none;
+	}
+	.navbar-small{
+		display: block;
+
+	}
+	.navbar-small nav{
+		border:1px solid white!important;
+	}
+	
+	.logo-header{
+		padding-bottom: 30px;
+	}
+}
+
+
+
+a:hover {
+	color:#FE7992 !important;
+	text-decoration:none;
+}
+
+.right_position {
+	left:0;
+}
+
+
+
+
+.search	button {
+	display: block;
+	position: absolute;
+	right: 0;
+	top:0;
+	background-color: #FE7992;
+
+}
+
+.mobile-menu button  {
+	width: 100px;
+	height: 50px;
+}
+
+.bg-nav{
+	border-bottom: 1px solid #FE7992;
+	border-top: 1px solid #FE7992
+}
+
+.search {
+	background-color: #FE7992!important;
+    border-color: #FE7992!important;
+    color:white!important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+.nav-link:hover {
+	color:  #FE7992!important;
+}
+
+/*          Левая часть сайта          */
+
+/*          Категории       */
+
+.category {
+	padding: 0;
+	list-style-type: none;
+}
+
+
+.sidebar-category,.sidebar-category3{
+	display: block;
+	background-color: #EFEEEC;
+	font-size: 1.3em;
+	padding-right:12px;
+	border-bottom: 1px solid #CCCBC9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sidebar {
+	margin-top: 20px;
+}
+
+.sidebar a  {
+	color: black;
+}
+
+.sidebar-category3{
+	padding-left:13px;
+}
+
+.sidebar-category2 {
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: serif;
+}
+
+.pos-f-t {
+	position: relative;
+}
+
+.spirit:hover a,.spirit:hover .down{
+	color:#FE7992; 
+}
+
+.head-catalog{
+	background-color: #FE7992;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+.head-catalog h4{
+	margin: 0;
+	color: white;
+}
+
+.down {
+	position: absolute;
+	right: 0;
+	top:0;
+}
+
+.wrapper-special-category{
+	margin-top: 40px;
+}
+
+
+.article-wrapper p{
+	color: black;
+}
+
+/*         Соц сети    */
+
+.social-media {
+	padding-top: 10px;
+}
+
+.social-media a{
+	font-size: 1.7em;
+	color: #766D8C;
+}
+
+
+
+/*       Блог    */
+
+.sidear-blog{
+	padding-top: 20px;
+}
+
+.date {
+	color:#A9A9A9!important; 
+}
+
+.news-blog2{
+	margin-top: -20px;
+}
+
+@media(max-width:767px) {
+
+.sidear-blog{
+	display: none;
+	}
+}
+
+.article-header a{
+	color: black!important;
+}
+
+.article-header a:hover{
+	color: #FE7992!important;
+}
+
+/*          Правая часть сайта     */
+ 
+/*          Специальные категории        */
+.image-wrapper img{
+	width: 170px;
+	height: 170px;
+
+}
+
+.wrapper-special-category{
+	margin-bottom: 40px;
+}
+
+@media(max-width:576px) {
+
+.image-wrapper img{
+	width: 120px;
+	height: 120px;
+	}
+	.image-wrapper {
+	text-align: center;
+	}
+}
+
+@media(min-width:577px) and (max-width:767px)  {
+
+.image-wrapper img{
+	width: 240px;
+	height: 200px;
+	}
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+
+.image-wrapper img{
+	width: 140px;
+	height: 140px;
+	}
+}
+
+/*       Виды товаров       */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: #ffffff;
+}
+
+.choice-product .nav-item {
+	margin-right: 20px;
+
+}
+
+.nav-pills .nav-link {
+	border-radius: 0;
+}
+
+ .choice-product .nav-link:hover{
+	border-bottom: 2px solid #AE4977;
+}
+
+.subcategory {
+	font-size: 1.2em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #AE4977;
+	border-bottom: 2px solid #AE4977;
+}
+
+
+.price {
+	position: relative;
+	color: #7F7D78;
+	padding-bottom: 10px;
+
+}
+
+.cart {
+	background-color: #AE4977;
+	position: absolute;
+	right: 0;
+	top:0;
+	border-radius:4px;
+	padding: 2px 15px;
+
+}
+
+.cart:hover {
+	background-color:#CB6694;
+}
+
+.cart i {
+		font-size: 1.3em;
+		color: white;
+}
+
+
+
+.slick-item{
+	margin-left: 20px;
+}
+
+
+.price h5 {
+		font-size: 1.2em;
+		padding-top: 2px;
+		word-spacing: 1px;
+
+}	
+
+.product-label {
+	position: absolute;
+	font-size: 1em;
+}
+
+
+.product-new {
+	background-color: #EFEEEC;
+	padding: 2px  10px;
+}
+
+.product-sale{
+	background-color: #F4393A;
+	padding: 2px  5px;
+	color: white;
+}
+
+.slick-prev, .slick-next {
+	z-index: 2000;
+	width: 32px;
+	height: 32px;
+	top:30%;
+}
+
+.slick-prev:before, .slick-next:before{
+	font-size: 32px;
+	text-shadow: 1px 1px 1px #717171;
+	color: #CB6694;
+}
+
+.slick-prev{
+	left: 10px;
+	bottom: 100px;
+}
+
+.slick-next{
+	right: 10px;
+	bottom: 100px;
+}
+
+/* Based on https://github.com/kenwheeler/slick/issues/187#issuecomment-59123524 */
+/* bootstrap hack: fix content width inside hidden tabs */
+.tab-content > .tab-pane, 
+.pill-content > .pill-pane {
+    display: block;    /* undo display:none          */
+    height: 0;         /* height:0 is also invisible */ 
+    overflow: hidden;  /* no-overflow                */
+}
+.tab-content > .active, 
+.pill-content > .active {
+    height: auto;      /* let the content decide it  */
+} 
+/* bootstrap hack end */
+
+/*          Форма отправки сообщения         */
+
+.wrapper-feedback{
+	margin-top: 2em;
+}
+
+.feedback  {
+	background-color: #EFEEEC;
+	padding:3% 5% 4% 5%;
+}
+
+.header-feedback{
+	padding-bottom: 13px;
+}
+
+.feedback-name-input, .feedback-mobile-input, .feedback-name-button{
+	width: 100%;
+	height: 33px;
+}
+
+
+.feedback-name-input, .feedback-mobile-input{
+	border: 1px solid #CB6694;
+	border-radius: 3px;
+	padding-left:0.8em; 
+	padding-right:0.8em; 
+	font-size: 1.1em;
+
+}
+
+.feedback-send span h6{
+	line-height: 1;
+}
+
+.feedback-name-button{
+	color: white;
+	background-color: #2B2B2B;
+
+}
+
+.feedback-name-button:hover {
+	background-color: #CB6694;
+}
+
+
+
+@media(max-width:767px)  {
+	.feedback-name-button {
+		margin-top: 13px;
+	}
+
+	.wrapper-article-image{
+		margin-bottom: 20px;
+	}
+
+}
+
+/*      Картинка и текст (виджет)    */
+
+.article-wrapper{
+	margin-top: 3em;
+}
+
+.wrapper-article-image img {
+	display: block;
+	border-radius: 4px;
+}
+
+.wrapper-article-text {
+	font-size: 1em;
+}
+
+.text-article h5 {
+	padding: 5px 0 5px 0;
+	color: #777670;
+
+}
+
+.text-article p{
+	color: #787878;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/*
+.feedback-name-input:focus {
+    border: 1px solid #AE4977;Рамка при получении фокуса 
+   } 
+*/
+
+
+/*         Отзывы покупателей      */
+
+.wrapper-reviews{
+	margin-top: 2.5em;
+}
+
+.block-reviews,.header-reviews{
+	padding: 1em;
+}
+
+.img-fluid-reviews {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.wrapper-recomendation p{
+	color: #787878;
+}
+
+.wrapper-our-service{
+	background-color: #EFEEEC;
+	padding: 1.5em 2em 1.5em 2em;
+	border-radius: 5px;
+	margin-top: 2em;
+
+}
+
+.block-our-service{
+	padding-right: 1em;
+	padding-left: 1em;
+	height: 100%;
+}
+
+.img-fluid-service{
+	 max-width: 100%;
+    height: auto;
+}
+
+@media(max-width:992px)  {
+	.wrapper-img-service{
+		padding-top: 10%;
+	}
+	.img-fluid-service{
+	 max-width: 170%;
+    height: auto;
+}
+
+}
+
+
+.main-text-info{
+color:#787878;
+padding-bottom: 2em;
+}
+
+.header-main-sheet, .main-text-info{
+	margin-top: 2em;
+}
+
+
+/*       Футер  сайта      */
+
+.wrapper-footer{
+	background-color: #FE7992;
+	width: 100%;
+}
+
+.footer-menu-navbar  a{
+	color: white!important;
+	font-size: 1em;
+}
+
+.footer-menu-navbar{
+	border-bottom: 1px solid white;
+}
+
+.footer-info h4,.footer-info a,.footer-social-media a{
+	color: white;
+}
+
+.footer-social-media a {
+	display: block;
+	border:2px solid white;
+	border-radius: 50%;
+	font-size: 1.1em;
+}
+
+.footer-link a {
+ color: white;
+}
+
+.footer-bottom{
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.footer-link{
+	padding-top: 1em;
+}
+
+.footer-menu-navbar {
+	display: block;
+	padding: 1em 0 1em 1em;
+}
+
+.wrapper-footer a:hover{
+	color: white!important;
+	text-decoration: underline;
+}
+
+.footer-menu-navbar .nav-item{
+	display: inline-block;
+}
+
+.footer-menu-navbar .nav-link{
+	padding-right: 8px;
+	padding-left: 8px;
+
+}
+
+@media (max-width:767px)  {
+		.footer-info{
+			text-align: center;
+			margin-bottom:1em;
+
+		}
+		.footer-menu-navbar .nav-item{
+	width: 100%;
+}
+
+
+
+}
+@media (max-width:487px) {
+.wrapper-our-service{
+	display: none;
+}
+}
+
+
+.arrow-up {
+	display: block;
+	width: 3em;
+	height: 3em;
+	position: fixed;
+	bottom:0.7em;
+	right: 0.7em;
+	 z-index: 1030;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	border:1px solid #FFFFFF;
+	color: #9d4e83;
+	box-shadow: 0px 0px 5px #777777;
+	font-size: 1em;
+}
+
+/*       Страница о нас         */
+
+.breadcrumb{
+	background-color: #ffffff;
+	padding-left: 0;
+}
+.breadcrumb a{
+	color: black;
+}
+
+.heading-wrapper-about_us,.main-text-info{
+	color:#777670;
+}
+
+.heading-wrapper-about_us{
+	padding-bottom: 1em;
+}
+
+.editor{
+	line-height: 1em;
+	padding-bottom: 2em;
+}
+
+.editor iframe {
+	width: 100%;
+}
+
+
+/*        Страница  Каталог        */
+
+.image-wrapper-page img{
+	width: 150px;
+	height: 150px;
+}
+
+.filter-wrapper{
+	margin-top: 2em;
+}
+
+
+.catalog-page-wrapper{
+	border-bottom: 1px solid #CB6694;
+	padding-bottom: 1.5em;
+}
+
+.filter ,.header-filter{
+	display: block;
+    background-color: #EFEEEC;
+    font-size: 1.3em;
+    padding-right: 12px;
+    border-bottom: 1px solid #CCCBC9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-filter{
+	padding-left: 12px;
+}
+
+.sidebar-category-aroma{
+	padding:0em 1em 0 1em;
+	font-size: 0.7em;
+}
+
+.aroma-category{
+	padding-top: 0.7em;
+}
+
+.fa-angle-up {
+	font-size: 2em;
+}
+#slider-range{
+	margin-top: 15px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+	border-radius: 50%;
+}
+
+.slider-range-price{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.btn-use{
+	padding: 0.3em 4em 0.3em 4em;
+}
+
+.wrapper-btn-use{
+	padding: 20px 12px 20px 12px;
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+
+.btn-use{
+	padding: 0.3em 2em 0.3em 2em;
+}
+
+.catalog-product h5{
+	font-size: 1.1em;
+}
+
+}
+
+.header-sort{
+	margin-top: 1em;
+}
+
+#select-sort{
+	border:1px solid #CB6694;
+	margin-right: 1em;
+	padding:0.3em 0.3em 0.3em 0.3em;
+}
+
+.content{
+	margin-top: 0!important;
+}
+
+.catalog-product .slick-item{
+	margin-left: 0;
+	margin-top: 1.5em;
+}
+
+.select-pages{
+	padding:0.1em 0.2em 0.1em 0.2em; 
+	border:1px solid #CB6694;
+}
+
+.wrapper-pages{
+	margin-top:2em;
+	margin-bottom:1em;
+}
+
+/*     Страничка входа в аккаунт    */
+
+.e-mail-account span,.password-account span,.contact_face span,.contact_number span{
+	color: red;
+}
+
+.e-mail-account input,.password-account input,.contact_face input,.contact_number input{
+	width: 45%;
+}
+
+@media(max-width:500px){
+.e-mail-account input,.password-account input,.contact_face input,.contact_number input{
+	width: 70%;
+}
+}
+
+.password-account,.contact_number{
+	margin-top: 1em;
+}
+
+.entrance-account{
+	margin:2em 0 2em 0;
+}
+.entrance-account a{
+	border-bottom: 2px dotted black;
+	font-size: 1.1em;
+	margin-left: 1em;
+}
+
+.btn-enter{
+	padding:0.2em 1.5em 0.2em 1.5em;
+}
+
+.btn-enter span {
+	font-size: 1em;
+}
+
+.btn-enter:hover{
+	background-color: #CB6694;
+	border-color: #CB6694;
+}
+.entrance-account a:hover{
+	border-color: #CB6694;
+	color: #CB6694!important;
+}
+
+
+
+
+/*     Страничка блога    */
+
+.wrapper-blog{
+	padding-bottom: 3em;
+}
+
+.all-tags ul{
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	padding-left: 0;
+
+}
+
+.tag {
+	display: flex;
+	margin: 0.7em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	border:1px solid #CB6694;
+
+}
+
+.tag a{
+	color: black;
+}
+
+.tag-name{
+	padding:0 10px 0 10px;
+	border-right:1px solid #CB6694; 
+}
+.tag-count{
+	padding-right:5px;
+}
+
+.tag:hover,.tag a:hover {
+		border-color: #B01F34;
+		color: #B01F34;
+}
+
+.article-date a,.article-date i{
+	margin-left: 4px;
+}
+
+.content-blog .article-header{
+	margin-top:1em;
+}
+
+.content-blog{
+	margin-top:1em;
+}
+
+
+/*         Страничка Каталога Духи           */
+
+.wrapper-text-spirit p,.wrapper-info-spirit p,.wrapper-info-perfumery-water p{
+	color: #757469;
+	padding-bottom: 1em;
+}
+
+.wrapper-submenu-spirit{
+	border-bottom: 1px solid #CB6694;
+	padding-bottom: 1em;
+}
+
+.is_active{
+	color: #f48b8b!important;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #CB6694!important;
+}
+
+.wrapper-info-perfumery-water{
+	padding-top: 2em;
+}
+
+
+/*         Страничка Каталога Кремы       */
+.padding-top{
+	padding-top: 2em;
+}
+
+.padding-bottom{
+	padding-bottom: 2em;
+}
+
+/*         Страничка Гели    */
+
+.wrapper-gels-page{
+	padding-bottom: 2em;
+}
+
+/*        Страничка товара        */
+
+.both_new_sale{
+	position: absolute;
+}
+
+
+.price-product {
+	color:#777670;
+	padding-bottom: 1em;
+}
+
+.price-product s{
+	color: #B7B6AB;
+}
+
+#select-amount{
+	border:1px solid #CB6694;
+	margin-right: 1em;
+	padding:0.3em 0.3em 0.3em 0.3em;
+}
+
+.wrapper-count {
+	padding-bottom: 1em;
+	padding-top: 1em;
+
+}
+
+#spinner {
+	border:1px solid #FD98D2;
+	height: 2em;
+}
+
+#spinner input {
+	border-right: 1px solid #FD98D2;
+	border-left: 1px solid #FD98D2;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+
+}
+
+#spinner a,#spinner input {
+	padding-left: 0;
+	padding-right:0;
+}
+
+.count{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 30px;
+}
+
+.wrapper-btn-basket{
+		padding-left: 0;
+		margin-left:15px;
+	}
+
+.btn-basket{
+	padding: 0.2em 0.7em;
+	border-radius: 3px;
+	height: 2em;
+}
+
+.btn-one-tap{
+	background-color: #85847E;
+	color: #ffffffff;
+}
+
+.order_one_click{
+	padding-bottom: 1em;
+}
+
+
+#spinner a:hover{
+	border: 1px solid #B2575E;
+}
+
+.btn-basket:hover{
+	background-color:#CB6694;
+	border-color: #CB6694; 
+}
+
+.is_miss{
+	padding: 0;
+}
+
+@media(max-width:767px){
+	.wrapper-btn-basket{
+		justify-content: flex-start!important;
+		padding-left: 2em;
+		margin-left: 1em;
+	}
+
+	.btn-preorder{
+		margin-top: 0.8em;
+	}
+}
+
+@media(min-width:768px) and (max-width: 1199px){
+	.wrapper-btn-basket{
+		padding-left: 0;
+		margin-left:25px;
+	}
+
+}
+
+@media(min-width:768px) and (max-width: 993px){
+	.is_miss{
+		padding-top: 1em;
+	}
+	
+}
+
+
+
+@media(max-width:487px){
+	.wrapper-btn-basket{
+		padding-left: 15px;
+	}
+}
+
+
+
+
+.wrapper-comparison button{
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.wrapper-comparison .rating{
+	font-size: 1.4em;
+	padding-right: 0.2em;
+}
+
+.btn-add-comparison:hover, .btn-delete-comparison:hover{
+	outline: none;
+}
+
+.wrapper-comparison button:hover{
+	color: #CB6694;
+	transition: all.3s ease;
+    -moz-transition:all.3s ease;
+    -webkit-transition: all.3s ease;
+    -ms-transition:all.3s ease;
+}
+
+.display-flex{
+	display: flex;
+}
+
+.display-none{
+	display: none;
+}
+
+.social-network-page{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.social-network-page ul {
+	padding-left: 0;
+}
+
+.social-network-page ul li{
+	display: inline-block;
+	width: 25px;
+	height: auto;
+	border-radius: 3px;
+}
+
+.social-network-page ul li a{
+	color: white;
+}
+
+.vkontakte-icon{
+	background-color: #357097;
+}
+
+.facobook-icon{
+	background-color: #2F5990;
+}
+
+.odnoklassniki-icon{
+	background-color: #FF681C;
+}
+
+.gmail-icon{
+	background-color: #F24433;
+}
+
+.twitter-icon{
+	background-color: #00AEEC;
+}
+
+.github-icon{
+	background-color: #383838;
+}
+
+.social-network-page ul li a:hover{
+	color: white!important;
+	opacity: 0.9;
+}
+
+
+.wrapper-thing{
+	padding-bottom: 2em;
+}
+
+.wrapper-tabs-thing table{
+	width: 30%;
+}
+
+#pills-recomend{
+	margin-bottom: 1em;
+}
+
+#text-recomend{
+	width: 100%;
+	height: 120px;
+}
+
+.form-recomend p span{
+	color: red;
+}
+
+.form-recomend input{
+	width: 100%;
+}
+
+.name-rec{
+	padding-left: 0;
+}
+
+.email-rec{
+	padding-right: 0;
+}
+
+
+@media(max-width:767px){
+	.name-rec{
+	padding-right: 0;
+}
+
+.email-rec{
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	padding-left: 0;
+}
+}
+
+
+.form-recomend textarea {
+	border-color: #FD98D2;
+}
+
+.form-recomend input{
+	border:1px solid #FD98D2;
+}
+
+.modal-footer{
+	border-top: none;
+	padding:1.3em 0 0 0;
+}
+
+.wrapper-slider-associated{
+	padding-top: 1em;
+}
+
+.content-tabs-product{
+	padding: 1em 0;
+}
+
+.wrapper-slider-things{
+	padding-bottom: 2em;
+}
+
+.wrapper-page-thing {
+	padding-bottom: 2em;
+}
+
+
+
+.clear{
+	clear: both;
+}
+
+/*       Оставить отзыв (Товар)     */
+
+.rating {
+    float:left;
+}
+/* Конструкция :not(:checked) работает как фильтр, чтобы браузеры, которые не поддерживают псевдокласс :checked не применяли эти свойства. Все браузеры, поддерживающие псевдокласс :checked, поддерживают и псевдокласс :not(), так что фильтр должен отработать правильно. */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+/*        Страничка блога уход за лицом    */
+
+
+.wrapper-info-blog td{
+ 	border: 1px solid #eeeeee;
+  }
+
+.date-public-blog{
+	padding-top: 1em;
+}
+
+
+.tags-blog ul {
+	margin-left: -0.7em;
+}
+
+.comment-header {
+	font-size: 1.3em;
+	border-bottom:1px solid #CB6694;
+
+}
+
+
+
+.wrapper-add-coment{
+	padding: 1em 0;
+}
+
+/*   Страница редактирование кабинета */
+
+.edit-office {
+	font-size: 1.2em;
+}
