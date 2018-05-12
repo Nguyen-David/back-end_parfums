@@ -2,14 +2,17 @@
 return array(
 
     'product/([0-9]+)' => 'product/view/$1', // actionView в ProductController
+
     'catalog/page-([0-9]+)' => 'catalog/index/$1',
     'catalog' =>'catalog/index',
 
-
+    'subcategory/([0-9]+)/page-([0-9]+)' => 'catalog/subcategory/$1/$2',
+    'subcategory/([0-9]+)' => 'catalog/subcategory/$1',
     'category/([0-9]+)/page-([0-9]+)' => 'catalog/category/$1/$2',
     'category/([0-9]+)' => 'catalog/category/$1',
 
     'cart/addAjax/([0-9]+)' => 'cart/addAjax/$1',
+    'cart/addAjax2' => 'cart/addAjax2',
     'cart' => 'cart/index',
 
     'user/register' => 'user/register',

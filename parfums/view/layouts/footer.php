@@ -127,6 +127,10 @@
 <script type="text/javascript">
 
     $(document).ready(function () {
+        $("#select-sort").change(function () {
+            alert('fjh');
+        });
+
         $(".sub").click(function (){
             var id  = $(this).attr('data-id');
 
@@ -134,10 +138,19 @@
 
                 $("#cart-count2").html(data);
                 $("#cart-count3").html(data);
+
             });
+            $.post("/cart/addAjax2", {}, function (data2) {
+
+                $("#cart-sum").html('Корзина ' + data2 +  ' руб');
+                $("#cart-sum2").html('Корзина ' + data2 +  ' руб');
+            });
+
             return false;
         });
     });
+
+
 
 </script>
 

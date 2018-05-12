@@ -89,16 +89,19 @@
                         <div class="row basket d-flex justify-content-end">
 
                             <div class="graphic ">
-                                <div class="count1">0</div>
-                                <a href="#" class="fonts"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
-
+                                <a class="count1_fonts" href="#">
+                                    <div class="count1">0</div>
+                                    <div href="#" class="fonts"><i class="fa fa-bar-chart" aria-hidden="true"></i></div>
+                                </a>
                             </div>
                             <div class="graphic ">
-                                <div class="count1" id="cart-count3"><?php echo Cart::countItems()?> </div>
-                                <a href="#" class="fonts"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                <a class="count1_fonts" href="/cart/">
+                                    <div class="count1" id="cart-count3"><?php echo Cart::countItems()?> </div>
+                                    <div href="#" class="fonts"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                </a>
                             </div>
                             <div>
-                                <p class="sum">Корзина:0.00 rub</p>
+                                <p class="sum" id="cart-sum2">Корзина <?php $sum = CartController::actionAddAjax2(); echo substr("$sum",0,-1);?> руб</p>
                             </div>
                         </div>
 
@@ -175,7 +178,7 @@
                             </a>
                         </div>
                         <div>
-                            <p class="sum">Корзина:0.00 rub</p>
+                            <p class="sum" id="cart-sum">Корзина <?php $sum = CartController::actionAddAjax2(); echo substr("$sum",0,-1);?> руб</p>
                         </div>
                     </div>
                 </div>
@@ -224,6 +227,8 @@
                 </div>
 
             </div>
+
+            <?php if($_SERVER['REQUEST_URI'] == '/'):?>
             <div id="carouselExampleIndicators2" data-interval="3000" class="carousel slide carousel-mobile" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -260,5 +265,6 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            <?php endif; ?>
         </div>
     </header>

@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class CatalogController
 {
     public function actionIndex($page = 1)
@@ -40,4 +37,24 @@ class CatalogController
 
         return true;
     }
+
+    public function actionSubcategory($subcategoryCode,$page = 1){
+        $categories_data = array();
+        $categories_data = Category::getCategoriesList();
+
+        $sub_categories_data = array();
+        $sub_categories_data = Sub_Category::getSub_CategoriesList();
+
+        $product_data = array();
+        $product_data = Product::getProductListBySubCategory($subcategoryCode, $page);
+
+        $total = Product::getTotalProductsInCategory($subcategoryCode);
+
+        $pagination = new Pagination($total,$page,Product::SHOW_BY_DEFAULT,'page-');
+        require_once(ROOT . '/view/catalog/subcategory.php');
+
+        return true;
+
+    }
+
 }

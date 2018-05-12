@@ -13,7 +13,7 @@ class Sub_Category
         $db =Db::getConnection();
         $categoriesList = array();
 
-        $result = $db->query('SELECT id,name,group_sub_categories '
+        $result = $db->query('SELECT id,name,group_sub_categories,code '
             .'FROM sub_categories '
             .'ORDER BY sort_order ASC');
         $i =0;
@@ -21,6 +21,7 @@ class Sub_Category
             $categoriesList[$i]['id'] = $row['id'];
             $categoriesList[$i]['name'] = $row['name'];
             $categoriesList[$i]['group_sub_categories'] = $row['group_sub_categories'];
+            $categoriesList[$i]['code'] = $row['code'];
             $i++;
         }
         return $categoriesList;
